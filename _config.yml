@@ -18,9 +18,9 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"}
   - {file: "Blog.md"}
-  - {file: "About.md"}
+  - {file: "landing.md"}
   # - {file: "README.md"}
-  - {file: "CV_tobi.pdf", title:"CV"}
+  - {file: "CV_tobi.pdf", title:"CV", icon:home}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:tobias.cibis@gmx.de"}
